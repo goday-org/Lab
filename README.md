@@ -1,4 +1,4 @@
 Lab
 ===
 
-Lab
+lab.goday.org
