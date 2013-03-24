@@ -3,3 +3,4 @@
 {"ts":1363933044863,"patch":[[{"diffs":[[0,"Try！"],[-1,"lll"],[1,"again！"],[0,"</p>"]],"start1":1050,"start2":1050,"length1":11,"length2":14}]],"length":1430,"saved":false}
 {"ts":1363933707541,"patch":[[{"diffs":[[0,"室建设中"],[-1,"！ Try！again！"],[1,"!"],[0,"</p>"]],"start1":1044,"start2":1044,"length1":20,"length2":9}]],"length":1419,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1363946701569,"patch":[[{"diffs":[[0,">实验室建设中!"],[1," "],[0,"</p>\r\n"],[1,"<a href=\"http://www.goday.org\">My blog</a>\r\n"],[0,"\r\n\r\n    "]],"start1":1041,"start2":1041,"length1":22,"length2":67}]],"length":1464,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1364099431483,"patch":[[{"diffs":[[0,"p>\r\n"],[-1,"<a href=\"http://www.goday.org\">My blog</a>\r\n"],[0,"\r\n\r\n"]],"start1":1052,"start2":1052,"length1":52,"length2":8}]],"length":1420,"saved":false}
