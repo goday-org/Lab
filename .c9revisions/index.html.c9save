@@ -4,3 +4,4 @@
 {"ts":1363933707541,"patch":[[{"diffs":[[0,"室建设中"],[-1,"！ Try！again！"],[1,"!"],[0,"</p>"]],"start1":1044,"start2":1044,"length1":20,"length2":9}]],"length":1419,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1363946701569,"patch":[[{"diffs":[[0,">实验室建设中!"],[1," "],[0,"</p>\r\n"],[1,"<a href=\"http://www.goday.org\">My blog</a>\r\n"],[0,"\r\n\r\n    "]],"start1":1041,"start2":1041,"length1":22,"length2":67}]],"length":1464,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1364099431483,"patch":[[{"diffs":[[0,"p>\r\n"],[-1,"<a href=\"http://www.goday.org\">My blog</a>\r\n"],[0,"\r\n\r\n"]],"start1":1052,"start2":1052,"length1":52,"length2":8}]],"length":1420,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374732626587,"patch":[[{"diffs":[[0,"实验室建设中! "],[1,"如果你想了解更多可以去我的<a href=\"http://www.goday.org\">Blog</a>查看更多内容。"],[0,"</p>\r\n\r\n"]],"start1":1042,"start2":1042,"length1":16,"length2":75}]],"length":1479,"saved":false}
