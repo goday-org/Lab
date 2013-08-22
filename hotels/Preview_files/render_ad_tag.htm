@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0282)http://expandable-ad-demo-tag-server.appspot.com/render_ad_tag?tag_id=f7e7be5fd470d8540fa5e76977267f8dfd66769c&prod_js=1&xsc=AdSenseAPI&width=300&height=250&creative_toolset_config=Expandable&engagement_notifier=&google_debug&xpc=XoXFNFDTzj&p=http%3A//expandable-ad-demo.appspot.com -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="lightbox_v3.js"></script>
+    <title>Expansion Iframe</title>
+    
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    
+      <script src="expansion_embed.js"></script><script src="expansion_embed_dbg.js"></script>
+      <script>
+        IN_ADSENSE_IFRAME = true;
+
+ENABLE_CPE = 'Expandable' == 'engagement';
+ENGAGEMENT_URL = '//expandable-ad-demo-tag-server.appspot.com/static/gen_204?id=engagement&creative_toolset_config=Expandable&tag_id=f7e7be5fd470d8540fa5e76977267f8dfd66769c&width=300&height=250&xsc=AdSenseAPI' +
+    '&chargeable=1';
+CREATIVE_CONVERSION_URL = '//expandable-ad-demo-tag-server.appspot.com/static/gen_204?id=engagement&creative_toolset_config=Expandable&tag_id=f7e7be5fd470d8540fa5e76977267f8dfd66769c&width=300&height=250&xsc=AdSenseAPI' +
+    '&chargeable=0';
+
+// TODO(wolfej): Provide a good way to control these within this tool.
+CREATIVE_TOOLSET_PARAMS = {
+  // Basic CPE and expansion / reporting functionality.
+  ENABLE_CPE: window.ENABLE_CPE,
+  ENGAGEMENT_URL: window.ENGAGEMENT_URL,
+  CREATIVE_CONVERSION_URL: window.CREATIVE_CONVERSION_URL,
+  // Control the engagement notifier.
+  ENGAGEMENT_NOTIFIER: '',
+  ENGAGEMENT_DELAY_MS: 2000,
+  // Control pingbacks.
+  SEND_SCHEDULED_PINGS: false,
+  EXPERIMENTAL_REPORTING_SCHEDULE: '',
+  SAMPLE_VIEWPORT_SIZES: false,
+  NEVER_CHARGE_FOR_EXPANSION: false,
+  ENGAGEMENT_CSS_URL: '//expandable-ad-demo-tag-server.appspot.com/static/engagement.css'
+};
+
+      </script>
+    
+    <script type="text/javascript">
+      function issueRequestOnLoad() {
+        var img = document.createElement('img');
+        img.src = "/AD_IFRAME_LOADING_DONE/?iframe_src=" +
+            encodeURI(window.location.href);
+        // Keep it around so not cleaned up before browser issues request.
+        window.LOAD_FINISHED_IMG = img;
+      }
+
+      if (window.addEventListener) {
+        window.addEventListener('load', issueRequestOnLoad, false);
+      } else {
+        window.attachEvent('onload', issueRequestOnLoad);
+      }
+    </script>
+  </head>
+  <body marginwidth="0" marginheight="0">
+    
+      <script src="__CREATIVE_DEFAULT__"></script><div id="creative_24705670_0"><div style="position: absolute; width: 600px; height: 400px; visibility: visible; left: 50%; top: 50%; margin-left: -300px; margin-top: -200px;"><object type="application/x-shockwave-flash" data="http://s0.2mdn.net/ads/richmedia/studio/24269669/24705670_20130821195631846_Polite_300x250.swf" width="600" height="400" wmode="opaque" flashvars="varName=200_26_flash_inpage_0&amp;creativeId=24705670_0&amp;assetId=24716589&amp;renderingType=200_26&amp;assetType=Inpage&amp;layoutsConfig=&amp;click=&amp;clickN=1&amp;assets=expand.swf%253Dhttp%25253A%2F%2Fs0.2mdn.net%2Fads%2Frichmedia%2Fstudio%2F24269669%2F24705670_20130821195613971_expand.swf%2526SVL_300x250.swf%253Dhttp%25253A%2F%2Fs0.2mdn.net%2Fads%2Frichmedia%2Fstudio%2F24269669%2F24705670_20130821195651667_SVL_300x250.swf%2526SVL_300x250.jpg%253Dhttp%25253A%2F%2Fs0.2mdn.net%2Fads%2Frichmedia%2Fstudio%2F24269669%2F24705670_20130821194820399_SVL_300x250.jpg&amp;vcData=&amp;exitEvents=name%253AExpanded%252520Click%252Curl%253Ahttps%25253A%2F%2Fbs.serving-sys.com%2FBurstingPipe%2FadServer.bs%25253Fcn%25253Dtf%252526c%25253D20%252526mc%25253Dclick%252526pli%25253D7737979%252526PluID%25253D0%252526ord%25253D0%252Ctarget%253A_blank&amp;sn=&amp;sid=0&amp;adv=0&amp;buy=0&amp;pid=0&amp;aid=0&amp;cid=0&amp;rid=24705670&amp;&amp;br=cr&amp;isFlashFullScreenEnabled=true&amp;td=http%3A%2F%2Fexpandable-ad-demo-tag-server.appspot.com&amp;adSiteUrl=http%3A%2F%2Fexpandable-ad-demo.appspot.com%2Fexpandable-ad-demo%3Ftag_id%3Df7e7be5fd470d8540fa5e76977267f8dfd66769c%26height%3D250%26width%3D300%26xsc%3DAdSenseAPI%26creative_toolset_config%3DExpandable%26engagement_notifier%3D%26google_debug%26prod_js%3D1&amp;googleDiscoveryUrl=http%3A%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fads%3Fclient%3Ddclk-3pas-query%26output%3Dxml%26geo%3Dtrue%26adtest%3Don&amp;dcData=&amp;customMetaData=&amp;ispushdown=false&amp;expEnv=adsense&amp;" name="FLASH_200_26_flash_inpage_0" id="FLASH_200_26_flash_inpage_0" allowscriptaccess="always" allowfullscreeninteractive="true" allowfullscreen="true" style="outline: none;"></object></div></div><script type="text/javascript" src="flash_inpage_rendering_lib_200_26.js" async="async"></script><noscript>   &lt;a target="_blank" href=""&gt;     &lt;img border="0" alt="" src="//s0.2mdn.net/ads/richmedia/studio/24269669/24705670_20130821194820399_SVL_300x250.jpg" width="300" height="250"&gt;   &lt;/a&gt;   &lt;img width="0px" height="0px" style="visibility:hidden" border="0" alt="" src="&amp;amp;timestamp=0;eid1=9;ecn1=1;etm1=0;"&gt;   &lt;img width="0px" height="0px" style="visibility:hidden" border="0" alt="" src=""&gt;   &lt;img width="0px" height="0px" style="visibility:hidden" border="0" alt="" src=""&gt; </noscript>
+    
+        <!-- The CreativeToolset attempts to set the visibility style to hidden on
+         this specific ID when expanding the iframe, so this should mimic the
+         true AdChoices behavior. -->
+    <style type="text/css">
+      #abgc {
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* For the policy noting the acceptable z-index for expandable ads, see
+        http://support.google.com/adwordspolicy/bin/answer.py?hl=en&answer=94230&expand=sc10
+        */
+        z-index: 9010;
+      }
+    </style>
+    <div id="abgc" style="visibility: visible;">
+      <img src="zindex.png" alt="z-index 9010" border="0" height="15" width="75">
+    </div>
+
+  
+
+<div id="google_expansion_overlay" style="opacity: 0.75; background-color: rgb(170, 170, 170); height: 20px; line-height: 20px; position: absolute; padding: 0px; width: 120px; z-index: 999999; pointer-events: none; left: 0px; text-align: left; border-top-right-radius: 5px; bottom: -20px; display: none; background-position: initial initial; background-repeat: initial initial;"><span style="bottom: 1px; color: rgb(0, 0, 0); font-size: 14px; font-family: Arial, sans-serif; left: 5px; letter-spacing: 0.05em; position: absolute; vertical-align: middle; z-index: 999999;">Expanding...</span><div id="google_progress_bar" style="background-color: rgb(238, 238, 238); height: 20px; opacity: 1; width: 0px; z-index: 999999; background-position: initial initial; background-repeat: initial initial;"></div></div></body></html>
