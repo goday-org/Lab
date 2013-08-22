@@ -28,5 +28,5 @@ function setCookie(name, value, seconds) {
  date.setTime(date.getTime()+(seconds*1000));
  expires = "; expires="+date.toGMTString();
  }
- document.cookie = name+"="+escape(value)+expires+"; path=/";   //转码并赋值
+ document.cookie = name+"="+escape(value)+expires;   //转码并赋值
 }
